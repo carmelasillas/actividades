@@ -1,0 +1,7 @@
+{
+  "name": "ACTIVIDADES",
+  "description": "A social platform to create, discover, and join local activities and events.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,15 @@
+
+{
+  "name": "actihub-app",
+  "version": "1.0.0",
+  "description": "Plataforma para organizar y unirse a actividades de formación.",
+  "main": "index.tsx",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "@google/genai": "^1.35.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
