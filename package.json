@@ -1,15 +1,20 @@
-
 {
-  "name": "actihub-app",
+  "name": "aplicacion-actihub",
+  "private": true,
   "version": "1.0.0",
-  "description": "Plataforma para organizar y unirse a actividades de formación.",
-  "main": "index.tsx",
-  "dependencies": {
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "@google/genai": "^1.35.0"
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
+  }
 }
